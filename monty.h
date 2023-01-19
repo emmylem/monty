@@ -53,7 +53,7 @@ extern arg_t arg;
 
 /**
  * struct line - contents of line and corresponding number
- * @contents: array of tokens read from the line
+ * @content: array of tokens read from the line
  * @number: the line number
  *
  * Description: contents of a line and corresponding number
@@ -61,7 +61,7 @@ extern arg_t arg;
 typedef struct line
 {
 	unsigned int number;
-	char **contents;
+	char **content;
 } line_t;
 
 /**
